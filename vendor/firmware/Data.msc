@@ -1,4 +1,4 @@
-VERSION:1074397300
+VERSION:1125941254
 
 32768,,WLAN_MODULE_INF -  INF_DBGID_DEFINITION_START  
 32769,2I,INF_ASSERTION_FAILED 0x%x 0x%x
@@ -345,31 +345,31 @@ VERSION:1074397300
 35026,4I,COEX_UPDATE_OCS  0x%x 0x%x 0x%x 0x%x
 35027,5I,COEX_STATUS_OCS  0x%x 0x%x 0x%x 0x%x 0x%x
 35028,5I,COEX_STATS_BT 0x%x 0x%x 0x%x 0x%x 0x%x
-35029,,LTE-COEX_MWS_WLAN_INIT 
-35030,3I,LTE-COEX_MWS_WBTMR_SYNC  0x%x 0x%x 0x%x
-35031,,LTE-COEX_MWS_TYPE2_RX 
-35032,,LTE-COEX_MWS_TYPE2_TX 
-35033,5I,LTE-COEX_MWS_WLAN_CHAVD  0x%x 0x%x 0x%x 0x%x 0x%x
-35034,,LTE-COEX_MWS_WLAN_CHAVD_INSERT 
-35035,,LTE-COEX_MWS_WLAN_CHAVD_MERGE 
-35036,3I,LTE-COEX_MWS_WLAN_CHAVD_RPT  0x%x 0x%x 0x%x
-35037,I,LTE-COEX_MWS_CP_MSG_SEND  frame_size = %u
-35038,,LTE-COEX_MWS_CP_ESCAPE 
-35039,I,LTE-COEX_MWS_CP_UNFRAME  retval = %u
-35040,2I,LTE-COEX_MWS_CP_SYNC_UPDATE  LteState = 0x%x 0x%x
-35041,3I,LTE-COEX_MWS_CP_SYNC  LteState = 0x%x type = 0x%x %u
-35042,2I,LTE-COEX_MWS_CP_WLAN_STATE_IND  LteState = 0x%x WlanToken = 0x%x
-35043,,LTE-COEX_MWS_CP_SYNCRESP_TIMEOUT 
-35044,4I,LTE-COEX_MWS_SCHEME_UPDATE  stimulus online PhyExist LteState = 0x%x PwrLimit LTECycle = 0x%x offset syncState Scheme = 0x%x WlanFreq = %u
-35045,3I,LTE-COEX_MWS_WLAN_EVENT  stimulus = 0x%x inc_token = %u WlanToken = 0x%x
-35046,,LTE-COEX_MWS_UART_UNESCAPE 
-35047,4I,LTE-COEX_MWS_UART_ENCODE_SEND  0x%x 0x%x 0x%x 0x%x
-35048,,LTE-COEX_MWS_UART_RECV_DECODE 
-35049,,LTE-COEX_MWS_UL_HDL 
-35050,5I,LTE-COEX_MWS_REMOTE_EVENT  0x%x 0x%x 0x%x 0x%x 0x%x
-35051,5I,LTE-COEX_MWS_OTHER  0x%x 0x%x 0x%x 0x%x 0x%x
-35052,,LTE-COEX_MWS_ERROR 
-35053,5I,LTE-COEX_MWS_ANT_DIVERSITY  0x%x 0x%x 0x%x 0x%x 0x%x
+35029,,LTECOEX -  COEX_MWS_WLAN_INIT 
+35030,3I,LTECOEX -  COEX_MWS_WBTMR_SYNC  0x%x 0x%x 0x%x
+35031,,LTECOEX -  COEX_MWS_TYPE2_RX 
+35032,,LTECOEX -  COEX_MWS_TYPE2_TX 
+35033,5I,LTECOEX -  COEX_MWS_WLAN_CHAVD  0x%x 0x%x 0x%x 0x%x 0x%x
+35034,,LTECOEX -  COEX_MWS_WLAN_CHAVD_INSERT 
+35035,,LTECOEX -  COEX_MWS_WLAN_CHAVD_MERGE 
+35036,3I,LTECOEX -  COEX_MWS_WLAN_CHAVD_RPT  0x%x 0x%x 0x%x
+35037,I,LTECOEX -  COEX_MWS_CP_MSG_SEND  frame_size = %u
+35038,,LTECOEX -  COEX_MWS_CP_ESCAPE 
+35039,I,LTECOEX -  COEX_MWS_CP_UNFRAME  retval = %u
+35040,2I,LTECOEX -  COEX_MWS_CP_SYNC_UPDATE  LteState = 0x%x 0x%x
+35041,3I,LTECOEX -  COEX_MWS_CP_SYNC  LteState = 0x%x type = 0x%x %u
+35042,2I,LTECOEX -  COEX_MWS_CP_WLAN_STATE_IND  LteState = 0x%x WlanToken = 0x%x
+35043,,LTECOEX -  COEX_MWS_CP_SYNCRESP_TIMEOUT 
+35044,3I,LTECOEX -  COEX_MWS_SCHEME_UPDATE  chavd_bmp[0:1]=0x%x chavd_bmp[2:3]=0x%x tdm_pwb_cc_bmp=0x%x
+35045,4I,LTECOEX -  COEX_MWS_WLAN_EVENT  stimulus = 0x%x wlan_state=0x%x frequency=%u wlan_token =0x%x
+35046,,LTECOEX -  COEX_MWS_UART_UNESCAPE 
+35047,4I,LTECOEX -  COEX_MWS_UART_ENCODE_SEND  0x%x 0x%x 0x%x 0x%x
+35048,,LTECOEX -  COEX_MWS_UART_RECV_DECODE 
+35049,,LTECOEX -  COEX_MWS_UL_HDL 
+35050,5I,LTECOEX -  COEX_MWS_REMOTE_EVENT  0x%x 0x%x 0x%x 0x%x 0x%x
+35051,5I,LTECOEX -  COEX_MWS_OTHER  0x%x 0x%x 0x%x 0x%x 0x%x
+35052,I,LTECOEX -  COEX_MWS_ERROR 0x%x
+35053,5I,LTECOEX -  COEX_MWS_ANT_DIVERSITY  0x%x 0x%x 0x%x 0x%x 0x%x
 35054,5I,COEX_P2P_GO 0x%x 0x%x 0x%x 0x%x 0x%x
 35055,5I,COEX_P2P_CLIENT 0x%x 0x%x 0x%x 0x%x 0x%x
 35056,5I,COEX_SCC_1 0x%x 0x%x 0x%x 0x%x 0x%x
@@ -396,9 +396,9 @@ VERSION:1074397300
 35334,4I,ROAM_CONFIG_CHAN_LIST  chan_list_type(FULL 0/CHANLIST 1/CHANMAP 2) = %d  num_chans = %d chan_list[0] = %d chan_list[1] = %d
 35335,5I,ROAM_CONFIG_SCAN_PARAMS_0 dwell_time_active = %d dwell_time_passive = %d burst_duration = %d min_rest_time = %d max_rest_time = %d
 35336,3I,ROAM_CONFIG_RSSI_CHANGE  chagne_val = %d dBm bcn_rssi_weight = %d hi_rssi_timer_interval = %d msec
-35337,2I,ROAM_SCAN_TIMER_START  roam_ctrl.running = %d roam_scan_mode(bitmap of PERIODIC 1/RSSI_CHANGE 2/BOTH 3/HO 4) = 0x%x
-35338,2I,ROAM_SCAN_TIMER_EXPIRE  roam_ctrl.running = %d roam_scan_state(IDLE 0/ACTIVE_SCAN 1/ACTIVE_ROAM 2) = %d
-35339,2I,ROAM_SCAN_TIMER_STOP  roam_ctrl.running = %d roam_scan_mode(bitmap of PERIODIC 1/RSSI_CHANGE 2/BOTH 3/HO 4) = 0x%x
+35337,2I,ROAM_SCAN_TIMER_START  id = %d (periodic 1/hirssi 2/first bmiss 3) interval = %d(msec)
+35338,4I,ROAM_SCAN_TIMER_EXPIRE  id = %d (periodic 1/hirssi 2/first bmiss 3) interval = %d(msec) roam_ctrl.running = %d roam_scan_state(IDLE 0/ACTIVE_SCAN 1/ACTIVE_ROAM 2) = %d
+35339,2I,ROAM_SCAN_TIMER_STOP  id = %d (periodic 1/hirssi 2/first bmiss 3) interval = %d(msec)
 35340,5I,ROAM_SCAN_STARTED  scan_id = 0x%x roam_scan_state(IDLE 0/ACTIVE_SCAN 1/ACTIVE_ROAM 2) = %d is_lazy_mode = %d bcn_rssi_avg = -%d dBm bcn_rssi_last = -%d dBm
 35341,5I,ROAM_SCAN_COMPLETE_0  candidate_found = 0x%x scan_info.scan_id = 0x%x roam_scan_state(IDLE 0/ACTIVE_SCAN 1/ACTIVE_ROAM 2) = %d final_scan = %d send_bcn_to_host = %d
 35342,5I,ROAM_SCAN_CANCELLED  scan_id = 0x%x type = 0x%x reason = 0x%x scan_queue_status = 0x%x sta_kickout = 0x%x
@@ -568,25 +568,60 @@ VERSION:1074397300
 36882,,VDEV_MGR_GEN_PERIODIC_NOA 
 36883,4I,VDEV_MGR_OFF_CHAN_GO_CH_REQ_SETUP  arg1 = 0x%x arg2 = 0x%x arg3 = 0x%x arg4 = 0x%x
 36884,,WLAN_MODULE_VDEV_MGR_DEFINITION_END 
-37376,I,SCAN_START_COMMAND_FAILED  0x%x
-37377,I,SCAN_STOP_COMMAND_FAILED  0x%x
-37378,I,SCAN_EVENT_SEND_FAILED  0x%x
+37376,I,SCAN_START_COMMAND_FAILED  status = 0x%x
+37377,I,SCAN_STOP_COMMAND_FAILED  status = 0x%x
+37378,5I,SCAN_EVENT_SEND_FAILED  scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x reason = %d
 37379,5I,SCAN_ENGINE_START  0x%x 0x%x 0x%x 0x%x 0x%x
 37380,2I,SCAN_ENGINE_CANCEL_COMMAND  0x%x 0x%x
 37381,5I,SCAN_ENGINE_STOP_DUE_TO_TIMEOUT  0x%x 0x%x 0x%x 0x%x 0x%x
-37382,2I,SCAN_EVENT_SEND_TO_HOST  0x%x 0x%x
+37382,2I,SCAN_EVENT_SEND_TO_HOST  evt_type = 0x%x evt_scan_id = 0x%x
 37383,5I,SCAN_EVENT_ADD  0x%x 0x%x 0x%x 0x%x 0x%x
 37384,4I,SCAN_EVENT_REM  0x%x 0x%x 0x%x 0x%x
-37385,3I,SCAN_EVENT_PREEMPTED  0x%x 0x%x 0x%x
-37386,I,SCAN_EVENT_RESTARTED  0x%x
-37387,2I,SCAN_EVENT_COMPLETED  0x%x 0x%x
-37388,,SCAN_SM_REQ_NEXT_CH 
-37389,,SCAN_DBGID_DEFINITION_END 
+37385,5I,SCAN_EVENT_PREEMPTED  scan_id = 0x%x ch_freq = %d preempted_by (scan_id) = 0x%x reason = %d send_to_host = %d
+37386,5I,SCAN_EVENT_RESTARTED  scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x send_to_host = %d
+37387,5I,SCAN_EVENT_COMPLETED  scan_id = 0x%x vdev_id = %d ch_freq = %d reason = %d send_to_host = %d
+37388,,SCAN_SM_REQ_NEXT_CH
+37389,5I,SCAN_ENG_START scan_id = 0x%x num_chans[request(3)|granted(3)] = %06d num_[ssid(3)|bssid(3)] = %06d flags = 0x%x [vdev_freq(4)|cur_chan_index(3)] = %07d
+37390,4I,SCAN_ENG_CANCEL scan_id = 0x%x stop_mode = %d scan_in_progress = %d cancel_in_progress = %d
+37391,4I,SCAN_ENG_SPOOFED_MAC_ADDR full_mac_addr = %08x%04x partial_mac_addr = %08x%04x
+37392,5I,SCAN_ENG_PARAM_1 dwell_time_active = %d msec dwell_time_passive = %d msec min_rest_time = %d msec max_rest_time = %d msec max_scan_time = %d msec
+37393,5I,SCAN_ENG_PARAM_2 idle_time = %d msec repeat_probe_time = %d msec probe_spacing_time = %d msec probe_delay = %d msec burst_duration = %d msec
+37394,I,SCAN_ENG_MAX_SCAN_TIMEOUT scan_id = 0x%x
+37395,4I,SCAN_ENG_START_IN_PROGRESS = 1 scan_id = 0x%x requestor = 0x%x req_sub_id = 0x%x priority = %d -> return EBUSY
+37396,I,SCAN_SM_START_COMMAND_FAILED current_scan = NULL handle = 0x%x
+37397,5I,SCAN_SCH_START scan_id = 0x%x requestor_id = 0x%x req_sub_id = 0x%x requested_priority = %d absolute_priority = %d
+37398,5I,SCAN_SCH_START_INFO monitoring_interval = %d ie_len = %d ie_chunk_bitmap = 0x%x opmode = %d subopmode = %d
+37399,,SCAN_SCH_START_NEW_REQ_FAILED
+37400,3I,SCAN_SCH_START_ALLOC_FAIL requestor_id = 0x%x req_sub_id = 0x%x requested_priority = %d
+37401,2I,SCAN_SCH_ENGINE_STOP_DUE_TO_TIMEOUT evt_scan_id = 0x%x evt_reason = 0x%x
+37402,2I,SCAN_SCH_POLICY_EVENT cur_scan_policy = %d new_scan_policy = %d
+37403,4I,SCAN_SCH_CANCEL scan_id = 0x%x requestor_id = 0x%x vdev_id = %d req_type = %d
+37404,I,SCAN_SCH_STOP_COMMAND_FAILED status = 0x%x
+37405,,SCAN_SCH_NEXT_SCAN_FAILED
+37406,2I,SCAN_WMI_SET_CHAN_LIST num_scan_chans = %d flags = 0x%x
+37407,5I,SCAN_EVENT_STARTED scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x send_to_host = %d
+37408,5I,SCAN_EVENT_BSS_CHANNEL scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x send_to_host = %d
+37409,5I,SCAN_EVENT_FOREIGN_CHANNEL scan_id = 0x%x ch_freq = %d bss_ch_freq = %d req_sub_id = 0x%x send_to_host = %d
+37410,5I,SCAN_EVENT_DEQUEUED scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x  send_to_host(bit8)|reason = 0x%03x
+37411,5I,SCAN_EVENT_START_FAILED scan_id = 0x%x vdev_id = %d req_sub_id = 0x%x reason = %d send_to_host = %d
+37412,5I,SCAN_EVENT_FOREIGN_CHANNEL_EXIT scan_id = 0x%x vdev_id = %d ch_freq = %d req_sub_id = 0x%x  send_to_host(bit8)|reason = 0x%03x
+37413,2I,SCAN_SM_DISPATCH %d < %d
+37414,2I,SCAN_SM_TRANSITIONS %d => %d
+37415,5I,SCAN_SM_REQ_NEXT_CHAN num_chan_indices = %d cur_chan_index = %d dwell = %d msec duration = %d usec freq = %d
+37416,I,SCAN_SEND_PROBE_REQ_RET_VDEV scan_id = 0x%x
+37417,I,SCAN_SEND_PROBE_REQ_RET_PLM scan_id = 0x%x
+37418,I,SCAN_SEND_PROBE_REQ_RET_PASSIVE scan_id = 0x%x
+37419,2I,SCAN_SEND_PROBE_REQ_RET_RADAR scan_id = 0x%x  freq = %d
+37420,3I,SCAN_SEND_PROBE_REQ_RET_DFS scan_id = 0x%x  freq = %d is_bcn_found = %d
+37421,5I,SCAN_SEND_PROBE_REQ_INFO scan_id = 0x%x isProbeTimer/timer_time = %d idx = %d idx1 = %d prb_spacing_time = %d
+37422,2I,SCAN_SM_CANCEL scan_stop = 0x%x scan_timeout = %d
+37423,5I,SCAN_SM_PROBE_REQ_FRAME_SEND_FAILED scan_id = 0x%x status = %d idx = %d idx1 = %d prb_spacing_time = %d
+37424,,SCAN_DBGID_DEFINITION_END
 37888,,WLAN_MODULE_RATECTRL-RATECTRL_DBGID_DEFINITION_START 
 37889,5I,RATECTRL_DBGID_ASSOC  TxChainMask=0x%x PhyMode=0x%x Flags=0x%x VhtSet=0x%x HtSet=0x%x
 37890,I,RATECTRL_DBGID_NSS_CHANGE  Nss=0x%x
 37891,,RATECTRL_DBGID_CHAINMASK_ERR 
-37892,,RATECTRL_DBGID_UNEXPECTED_FRAME 
+37892,3I,RATECTRL_DBGID_UNEXPECTED_FRAME 0x%x 0x%x 0x%x
 37893,5I,RATECTRL_DBGID_WAL_RCQUERY  rix0=0x%x rix1=0x%x rix2=0x%x ProbeRix=0x%x SwPpduFlags=0x%x
 37894,2I,RATECTRL_DBGID_WAL_RCUPDATE  NumTxDnElem=0x%x SwPpduFlags=0x%x
 37895,6I,RATECTRL_DBGID_GTX_UPDATE  0x%x 0x%x 0x%x 0x%x 0x%x 0x%x
@@ -625,7 +660,8 @@ VERSION:1074397300
 38912,,WLAN_MODULE_BLOCKACK
 39424,,WLAN_MODULE_MGMT_TXRX -  MGMT_TXRX_DBGID_DEFINITION_START 
 39425,3I,MGMT_TXRX_FORWARD_TO_HOST  Channel_VdevActiveCount_Channel=0x%x Seq_Type_Subtype=0x%x 0x%x
-39426,,WLAN_MODULE_MGMT_TXRX -  MGMT_TXRX_DBGID_DEFINITION_END 
+39427,I,MGMT_TXRX_VDEV_USED_TO_SEND_FRAME_IS_FREE Reason=0x%x
+39429,,WLAN_MODULE_MGMT_TXRX -  MGMT_TXRX_DBGID_DEFINITION_END 
 39936,,WLAN_MODULE_DATA_TXRX -  DATA_TXRX_DBGID_DEFINITION_START
 39937,5I,DATA_TXRX_DBGID_RX_DATA_SEQ_LEN_INFO Invalid Peer 0x%x 0x%x 0x%x 0x%x 0x%x
 39938,4I,DATA_TXRX_DBGID_REPLAY_CHECK 0x%x KeyId=0x%x oldPN=0x%x newPN=0x%x
@@ -645,7 +681,7 @@ VERSION:1074397300
 41477,I,BEACON_EVENT_EARLY_RX_CLK_DRIFT  %d
 41478,I,BEACON_EVENT_EARLY_RX_AP_DRIFT  %d
 41479,I,BEACON_EVENT_EARLY_RX_BCN_TYPE  %d
-41480,I,BEACON_EVENT_TSFOOR tsf 0x%x
+41480,2I,BEACON_EVENT_TSFOOR 0x%x 0x%x
 41984,,WLAN_MODULE_OFFLOAD_MGR_DBGID_DEFINITION_START 
 41985,2I,OFFLOADMGR_REGISTER_OFFLOAD  offload_module = 0x%x ref_cnt = 0x%x
 41986,2I,OFFLOADMGR_DEREGISTER_OFFLOAD  offload_module = 0x%x ref_cnt = 0x%x
@@ -655,7 +691,7 @@ VERSION:1074397300
 41990,I,OFFLOADMGR_DEREG_OFFLOAD_FAILED  offload_module = 0x%x
 41991,I,OFFLOADMGR_ENTER_FAILED  offload_module = 0x%x
 41992,2I,OFFLOADMGR_EXIT_FAILED  offload_module = 0x%x extra_id = 0x%x
-41993,,WLAN_MODULE_OFFLOAD-OFFLOADMGR_DBGID_DEFINITION_END 
+41993,,WLAN_MODULE_OFFLOAD MGR_DBGID_DEFINITION_END 
 42496,,WLAN_MODULE_WAL-WAL_DBGID_DEFINITION_START 
 42497,,WAL_DBGID_FAST_WAKE_REQUEST 
 42498,,WAL_DBGID_FAST_WAKE_RELEASE 
@@ -676,9 +712,9 @@ VERSION:1074397300
 42513,3I,WAL_DBGID_AST_DEL_WDS_ENTRY  0x%x 0x%x 0x%x
 42514,4I,WAL_DBGID_AST_WDS_ENTRY_PEER_CHG  0x%x 0x%x 0x%x 0x%x
 42515,2I,WAL_DBGID_AST_WDS_SRC_LEARN_FAIL  0x%x 0x%x
-42516,I,WAL_DBGID_STA_KICKOUT  0x%x
-42517,,WAL_DBGID_BAR_TX_FAIL 
-42518,,WAL_DBGID_BAR_ALLOC_FAIL 
+42516,6I,WAL_DBGID_STA_KICKOUT  0x%x 0x%x 0x%x 0x%x 0x%x 0x%x
+42517,4I,WAL_DBGID_BAR_TX_FAIL 0x%x 0x%x 0x%x 0x%x
+42518,1I,WAL_DBGID_BAR_ALLOC_FAIL 0x%x
 42519,,WAL_DBGID_LOCAL_DATA_TX_FAIL 
 42520,,WAL_DBGID_SECURITY_PM4_QUEUED 
 42521,,WAL_DBGID_SECURITY_GM1_QUEUED 
@@ -697,7 +733,7 @@ VERSION:1074397300
 42534,5I,WAL_DBGID_DEV_TX_TIMEOUT  0x%x 0x%x 0x%x 0x%x 0x%x
 42535,,WAL_DBGID_DEV_RX_TIMEOUT 
 42536,I,WAL_DBGID_STA_VDEV_XRETRY  0x%x
-42537,,WAL_DBGID_DCS 
+42537,4I,WLAN_MODULE_WAL -  WAL_DBGID_DCS op:0x%x(1-set,2-get), ac:%d, ts:%d, dir:%d(0-tx,1-rx,2-both)
 42538,2I,WAL_DBGID_MGMT_TX_FAIL  0x%x 0x%x
 42539,I,WAL_DBGID_SET_M4_SENT_MANUALLY  0x%x
 42540,I,WAL_DBGID_PROCESS_4_WAY_HANDSHAKE  0x%x
@@ -707,7 +743,7 @@ VERSION:1074397300
 42544,2I,WAL_DBGID_WHAL_CHANNEL_CHANGE_COMPLETE  0x%x 0x%x
 42545,4I,WAL_DBGID_TX_MGMT_DESCID_SEQ_TYPE_LEN  0x%x 0x%x 0x%x 0x%x
 42546,,WAL_DBGID_TX_DATA_MSDUID_SEQ_TYPE_LEN 
-42547,I,WAL_DBGID_TX_DISCARD  0x%x
+42547,4I,WAL_DBGID_TX_DISCARD  0x%x 0x%x 0x%x 0x%x
 42548,3I,WAL_DBGID_TX_MGMT_COMP_DESCID_STATUS  0x%x 0x%x 0x%x
 42549,,WAL_DBGID_TX_DATA_COMP_MSDUID_STATUS 
 42550,I,WAL_DBGID_RESET_PCU_CYCLE_CNT  0x%x
@@ -715,7 +751,7 @@ VERSION:1074397300
 42552,3I,WAL_DBGID_BRSSI_CONFIG  0x%x 0x%x 0x%x
 42553,,WAL_DBGID_CURRENT_BRSSI_AVE 
 42554,,WAL_DBGID_BCN_TX_COMP 
-42555,4I,WAL_DBGID_RX_REENTRY  0x%x 0x%x 0x%x 0x%x
+42555,6I,WLAN_MODULE_WAL -  WAL_DBGID_RX_REENTRY  0x%x 0x%x 0x%x 0x%x 0x%x 0x%x
 42556,3I,WAL_DBGID_SET_HW_CHAINMASK  0x%x 0x%x 0x%x
 42557,2I,WAL_DBGID_SET_HW_CHAINMASK_TXRX_STOP_FAIL  0x%x 0x%x
 42558,2I,WAL_DBGID_GET_HW_CHAINMASK  0x%x 0x%x
@@ -841,6 +877,13 @@ VERSION:1074397300
 47117,,WLAN_MODULE_CSA-CSA_DBGID_DEFINITION_END
 47616,2I,NLO_DBGID_SSID_TO_BE_SCANNED_LIST  0x%x 0x%x
 47617,I,NLO_DBGID_SSID_TO_BE_SKIPPED_LIST 0x%x
+47618,3I,FIRST_MATCH_FOUND vdev_id = 0x%x wow_state_entered = 0x%x 0x%x
+47619,3I,NLO_SCAN_STARTED vdev_id = 0x%x nlo_config_flags = 0x%x event_scan_id = 0x%x
+47620,I,NLO_SCAN_CYCLE_STARTED vdev_id = 0x%x
+47621,2I,NLO_SCAN_CYCLE_STOPPED vdev_id = 0x%x is_scan_pending = 0x%x
+47622,I,NLO_SLOW_SCAN_STARTED vdev_id = 0x%x
+47623,4I,NLO_SCAN_FINISHED vdev_id = 0x%x event_type = 0x%x event_reason = 0x%x event_scan_id = 0x%x
+47624,5I,NLO_PROBE_RSP_BEACON type = 0x%x subtype = 0x%x rssi = 0x%x bssid = 0x%x 0x%x
 48128,,WLAN_MODULE_CHATTER-WLAN_CHATTER_DBGID_DEFINITION_START 
 48129,,WLAN_CHATTER_ENTER 
 48130,,WLAN_CHATTER_EXIT 
@@ -861,7 +904,7 @@ VERSION:1074397300
 48641,3I,WOW_ENABLE_CMDID  recv_cmd/operate_state = 0x%x tx_pending_cnt/is_block/wake_reason = 0x%x wow_allow = 0x%x
 48642,3I,WOW_RECV_DATA_PKT  tgt_ip = 0x%x src_ip = 0x%x ops = 0x%x
 48643,3I,WOW_WAKE_HOST_DATA   length/store_faliure = 0x%x mac_addr31to0 = 0x%x mac_addr47to32 = 0x%x
-48644,I,WOW_RECV_MGMT  frame_type = 0x%x
+48644,I,WOW_RECV_MGMT  frame_type = 0x%x 0x%x
 48645,,WOW_WAKE_HOST_MGMT 
 48646,,WOW_RECV_EVENT 
 48647,6I,WOW_WAKE_HOST_EVENT  0x%x 0x%x 0x%x 0x%x 0x%x 0x%x
@@ -904,7 +947,8 @@ VERSION:1074397300
 50704,2I,STA_SMPS_DBGID_DTIM_POWER_STATE_CHANGE  cur_power_state = 0x%x new_power_state = 0x%x
 50705,4I,STA_SMPS_DBGID_DTIM_CHMASK_UPDATE_SLEEP  tx_chain_mask = 0x%x rx_chain_mask = 0x%x orig_rx_chainmask = 0x%x arb_dtim_rx_chainmask = 0x%x
 50706,3I,STA_SMPS_DBGID_DTIM_CHMASK_UPDATE_AWAKE  tx_chain_mask = 0x%x rx_chain_mask = 0x%x orig_rx_chainmask = 0x%x
-50706,,WLAN_MODULE_STA_SMPS-STA_SMPS_DBGID_DEFINITION_END 
+50711,3I,STA_SMPS_DBGID_INVALID_SM_EVENT  id = 0x%0x event = 0x%x dynamicSMPSSupported = 0x%x
+50712,,WLAN_MODULE_STA_SMPS -  STA_SMPS_DBGID_DEFINITION_END 
 51200,,SWBMISS_DBGID_DEFINITION_START 
 51201,5I,SWBMISS_ENABLED  vdev_id = 0x%x module_id = 0x%x bmiss_disable_bitmap_63_32 0x%x bmiss_disable_bitmap_31_0 = 0x%x curr_bmiss_bcnt = 0x%x
 51202,5I,SWBMISS_DISABLED  vdev_id = 0x%x module_id = 0x%x bmiss_disable_bitmap_63_32 0x%x bmiss_disable_bitmap_31_0 = 0x%x curr_bmiss_bcnt = 0x%x
@@ -1017,7 +1061,9 @@ VERSION:1074397300
 55811,4I,WLAN_STATS_DBGID_EST_LINKSPEED_CHAN_TIME_END  chan_mhz 0x%x chan_mhz 0x%x busy_time_us 0x%x accu_idle_dur_us 0x%x
 55812,3I,WLAN_STATS_DBGID_EST_LINKSPEED_CALC  0x%x 0x%x 0x%x
 55813,2I,WLAN_STATS_DBGID_EST_LINKSPEED_UPDATE_HOME_CHAN  chan_mhz 0x%x home_chan_added 0x%x
-55814,,WLAN_MODULE_STATS -  WLAN_STATS_DBGID_DEFINITION_END 
+55814,4I,WLAN_STATS_RSSI  ref_value: 0x%x line_no: 0x%x swbmiss_rssi: 0x%x snr_bcn_rssi: 0x%x
+55815,3I,WLAN_STATS_RSSI  ref_value: 0x%x line_no: 0x%x beacon_rssi: 0x%x
+55816,,WLAN_MODULE_STATS -  WLAN_STATS_DBGID_DEFINITION_END 
 56320,,NAN_MODULE_ID -  NAN_DBGID_START
 56321,5I,NAN-FUNC_BEGIN: mod %u line %u:0x%x 0x%x 0x%x
 56322,5I,NAN-FUNC_END: mod %u  line %u: 0x%x 0x%x 0x%x
@@ -1148,7 +1194,13 @@ VERSION:1074397300
 56447,4I,NAN-NAN_SCAN_EVENT: scan_id %u  etype %u  ereason %u  freq %u
 56448,I,NAN_DBGID_NAN_SDF_QUEUED : sdf_queued = %d
 56449,I,NAN_DBGID_NAN_BEACON_QUEUED : bcn_queued = %d
-56450,,WLAN_MODULE_NAN_MODULE_ID - NAN_DBGID_END
+56450,2I,NAN_DBGID_NAN_NOT_ALLOWED : msg_id = %d wifi status = %d
+56451,2I,NAN_DBGID_NAN_TX_FOLLOWUP_REQ_TR_ID : transactionId = %d flag = 0x%x
+56452,4I,NAN_DBGID_NAN_TX_FOLLOWUP_RESP_TR_ID : transactionId = %d flag = 0x%x status = %d follwupTxRspDisableFlag = %d
+56453,2I,NAN_DBGID_PUBSUB_TERM_IND_DISABLE_FLAG : reason = %d terminatedIndDisableFlag = %d
+56454,I,NAN_DBGID_UNMATCH_IND_DISABLE_FLAG : UnmatchIndDisableFlag = %d
+56455,I,NAN_DBGID_FOLLOWUP_RX_IND_DISABLE_FLAG : follwupRxIndDisableFlag = %d
+56456,,WLAN_MODULE_NAN_MODULE_ID - NAN_DBGID_END
 56832,,IBSS_PWRSAVE-IBSS_PS_DBGID_DEFINITION_START 
 56833,I,IBSS_PS_DBGID_PEER_CREATE  IBSS PS: create peer ID=%u
 56834,4I,IBSS_PS_DBGID_PEER_DELETE  IBSS PS: delete peer ID=%u num_peers:%d num_sleeping_peers:%d ps_enabled_for_this_peer:%d
@@ -1300,6 +1352,7 @@ VERSION:1074397300
 58406,2I,EXTSCAN_NOTIFY_HOTLIST_MATCH  compressed mac addr = 0x%x flags = 0x%x
 58407,,EXTSCAN_CONFIG_HOTLIST_TABLE 
 58408,,EXTSCAN_CONFIG_WLAN_CHANGE_TABLE 
+58409,I,EXTSCAN_EVENT_SEND_FAILED event_type = %d
 58880,4I,WLAN_UNIT_TEST_GEN  0x%x 0x%x 0x%x 0x%x
 59392,5I,MLME_DEBUG_CMN  0x%x 0x%x 0x%x 0x%x 0x%x
 59393,,MLME_DEBUG_IF 
@@ -1336,5 +1389,26 @@ VERSION:1074397300
 60426,5I,ERE_DBGID_ADD_ROUTE_ENTRY value1=0x%x value2=0x%x value3=0x%x value4=0x%x value5=0x%x
 60427,,ERE_DBGID_STATS_TX 
 60428,,ERE_DBGID_STATS_RX 
-60429,,WLAN_MODULE_ERE-ERE_DBGID_DEFINITION_END
+60666,4I,TIMEKEEPER_FUNC_BEGIN: %u: 0x%x 0x%x 0x%x 
+60667,4I,TIMEKEEPER_FUNC_END:   %u: 0x%x 0x%x 0x%x 
+60668,I,TIMEKEEPER_INIT ctxt=0x%x
+60669,I,TIMEKEEPER_OPEN ctxt=0x%x
+60670,I,TIMEKEEPER_CLOSE ctxt=0x%x
+60671,I,TIMEKEEPER_NEGOTIATE ctxt=0x%x
+60672,I,TIMEKEEPER_TMR_HNDLR ctxt=0x%x
+60673,2I,TIMEKEEPER_UNITTEST ctxt=0x%x status=0x%x
+60674,I,TIMEKEEPER_LF_TMR_HNDLR ctxt=0x%x
+60675,I,TIMEKEEPER_DEINIT ctxt=0x%x
+60676,5I,TIMEKEEPER_SLOTBITMAP ctxt=0x%x transaction_id=0x%x num_valid=0x%x chan_mhz=0x%x slotbitmap=0x%x
+60677,I,TIMEKEEPER_CANCEL_SLOTBITMAP ctxt=0x%x
+60678,3I,TIMEKEEPER_CONFIRM_SLOTBITMAP ctxt=0x%x client=0x%x chan_mhz=0x%x
+60679,2I,TIMEKEEPER_RESOLVE_SLOTBITMAP ctxt=0x%x index=0x%x
+60680,4I,TIMEKEEPER_ADD_CHAN_ELEMENT ctxt=0x%x chan_mhz=0x%x flags=0x%x index=0x%x
+60681,4I,TIMEKEEPER_REMOVE_CHAN_ELEMENT ctxt=0x%x chan_mhz=0x%x flags=0x%x index=0x%x
+60682,4I,TIMEKEEPER_FIND_CHAN_ELEMENT ctxt=0x%x chan_mhz=0x%x flags=0x%x index=0x%x
+60683,2I,TIMEKEEPER_QUERY_COMMITTED_SLOTBITMAP ctxt=0x%x cur_slotbitmap=0x%x
+60684,4I,TIMEKEEPER_ENCODE_SLOTBITMAP i=0x%x j=0x%x slot_array=0x%x sbm=0x%x
+60685,2I,TIMEKEEPER_SLOT_ARRAY_DBG master=0x%x slot_array=0x%x 
+60686,3I,TIMEKEEPER_POPULATE_MASTER i=0x%x sm_slot_array=0x%x mstr_slot_array=0x%x
+60687,,WLAN_MODULE_ERE-ERE_DBGID_DEFINITION_END
 60928,, WLAN_MODULE_ID_INVALID

@@ -16,9 +16,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
-    atfwd \
     HiddenMenu \
-    qcrilmsgtunnel \
     TimeService
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
@@ -32,9 +30,11 @@ PRODUCT_PACKAGES += \
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
     HotwordEnrollment \
+    atfwd \
     DCMO \
     CNEService \
     LifeTimerService \
+    qcrilmsgtunnel \
     DMService \
     SprintDM \
     ConnMO \
@@ -45,3 +45,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdmengine_32.so \
     libdmjavaplugin_32.so
+
+# Prebuilt shared libraries from 'vendor'
+PRODUCT_PACKAGES += \
+    libqmi_common_so \
+    libqmiservices \
+    libqmi_cci \
+    libqmi_csi \
+    libdsi_netctrl
