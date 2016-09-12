@@ -39,6 +39,8 @@ PRODUCT_PACKAGES += \
     SprintDM \
     ConnMO \
     DiagMon \
+    Entitlement \
+    CarrierEntitlement \
     DMConfigUpdate
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
@@ -53,3 +55,8 @@ PRODUCT_PACKAGES += \
     libqmi_cci \
     libqmi_csi \
     libdsi_netctrl
+
+# Prebuilt shared libraries from 'proprietary'
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api

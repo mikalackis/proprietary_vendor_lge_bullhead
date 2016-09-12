@@ -354,6 +354,34 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Entitlement
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_OWNER := lge
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app
+LOCAL_SRC_FILES := proprietary/priv-app/Entitlement/Entitlement.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CarrierEntitlement
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_OWNER := lge
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app
+LOCAL_SRC_FILES := proprietary/priv-app/CarrierEntitlement/CarrierEntitlement.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := DMConfigUpdate
 LOCAL_MODULE_TAGS := optional
 LOCAL_BUILT_MODULE_STEM := package.apk
@@ -374,6 +402,7 @@ LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := vendor/lib64/libqmi_common_so.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := vendor/lib/libqmi_common_so.so
 include $(BUILD_PREBUILT)
@@ -385,6 +414,7 @@ LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := vendor/lib64/libqmiservices.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := vendor/lib/libqmiservices.so
 include $(BUILD_PREBUILT)
@@ -396,6 +426,7 @@ LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := vendor/lib64/libqmi_cci.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := vendor/lib/libqmi_cci.so
 include $(BUILD_PREBUILT)
@@ -407,6 +438,7 @@ LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := vendor/lib64/libqmi_csi.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := vendor/lib/libqmi_csi.so
 include $(BUILD_PREBUILT)
@@ -418,8 +450,42 @@ LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := vendor/lib64/libdsi_netctrl.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := vendor/lib/libdsi_netctrl.so
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
+LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_api_v02.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_ds_api
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
+LOCAL_SRC_FILES := proprietary/lib64/libloc_ds_api.so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_ds_api.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ETC_Bullhead_AOSPLinks
+LOCAL_MODULE_OWNER := google
+LOCAL_MODULE_TAGS := optional
+LOCAL_POST_INSTALL_CMD := \
+    mkdir -p $(TARGET_OUT_ETC)/firmware/wcd9320; \
+    ln -sf /data/misc/audio/wcd9320_anc.bin $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_anc.bin; \
+    ln -sf /data/misc/audio/wcd9320_mad_audio.bin $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_mad_audio.bin; \
+    ln -sf /data/misc/audio/wcd9320_mbhc.bin $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_mbhc.bin;
+include $(BUILD_PHONY_PACKAGE)
 
 endif
