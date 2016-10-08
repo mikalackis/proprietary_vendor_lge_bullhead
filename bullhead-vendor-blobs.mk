@@ -1,4 +1,4 @@
-# Auto-generated file, do not edit
+# [2016-10-08] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \
@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/old-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/old-apns-conf.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.omadm.service.xml:lge \
-    vendor/lge/bullhead/proprietary/etc/permissions/com.google.widevine.software.drm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.widevine.software.drm.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml:lge \
     vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsservice.xml:lge \
@@ -501,3 +500,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/rfsa/adsp/fastrpc_shell_0:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/fastrpc_shell_0:lge \
     vendor/lge/bullhead/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:lge \
     vendor/lge/bullhead/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:lge
+
