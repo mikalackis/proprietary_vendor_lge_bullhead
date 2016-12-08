@@ -1,4 +1,4 @@
-# [2016-11-28] Auto-generated file, do not edit
+# [2016-12-08] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \
@@ -198,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so:lge \
     vendor/lge/bullhead/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so:lge \
     vendor/lge/bullhead/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so:lge \
-    vendor/lge/bullhead/vendor/lib64/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL_adreno.so:lge \
     vendor/lge/bullhead/vendor/lib64/libfrsdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfrsdk.so:lge \
     vendor/lge/bullhead/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so:lge \
     vendor/lge/bullhead/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so:lge \
