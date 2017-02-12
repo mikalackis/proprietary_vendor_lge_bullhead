@@ -1,4 +1,4 @@
-# [2017-01-19] Auto-generated file, do not edit
+# [2017-02-12] Auto-generated file, do not edit
 
 LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bullhead)
@@ -12,7 +12,7 @@ LOCAL_BUILT_MODULE_STEM := package.apk
 LOCAL_MODULE_OWNER := lge
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/app
 LOCAL_SRC_FILES := vendor/app/datastatusnotification/datastatusnotification.apk
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
@@ -25,13 +25,12 @@ LOCAL_BUILT_MODULE_STEM := package.apk
 LOCAL_MODULE_OWNER := lge
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_VENDOR)/app
 LOCAL_SRC_FILES := vendor/app/ims/ims.apk
-LOCAL_REQUIRED_MODULES :=  libimscamera_jni_64.so libimsmedia_jni_64.so
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_REQUIRED_MODULES := libimscamera_jni_64.so libimsmedia_jni_64.so
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libimscamera_jni_64.so
@@ -49,7 +48,6 @@ $(LOCAL_BUILT_MODULE):
 	$(hide) rm -rf $(SYMLINK)
 	$(hide) ln -sf $(TARGET) $(SYMLINK)
 	$(hide) touch $@
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libimsmedia_jni_64.so
 LOCAL_MODULE_CLASS := FAKE
@@ -272,7 +270,7 @@ LOCAL_BUILT_MODULE_STEM := package.apk
 LOCAL_MODULE_OWNER := lge
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app
 LOCAL_SRC_FILES := proprietary/priv-app/DMService/DMService.apk
-LOCAL_REQUIRED_MODULES :=  libdmengine_32.so libdmjavaplugin_32.so
+LOCAL_REQUIRED_MODULES := libdmengine_32.so libdmjavaplugin_32.so
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -280,7 +278,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 LOCAL_MULTILIB := 32
 include $(BUILD_PREBUILT)
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdmengine_32.so
@@ -298,7 +295,6 @@ $(LOCAL_BUILT_MODULE):
 	$(hide) rm -rf $(SYMLINK)
 	$(hide) ln -sf $(TARGET) $(SYMLINK)
 	$(hide) touch $@
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdmjavaplugin_32.so
 LOCAL_MODULE_CLASS := FAKE

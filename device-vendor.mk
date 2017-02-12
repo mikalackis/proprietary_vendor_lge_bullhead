@@ -1,4 +1,4 @@
-# [2017-01-19] Auto-generated file, do not edit
+# [2017-02-12] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -45,6 +45,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdmengine_32.so \
     libdmjavaplugin_32.so
+
+# Standalone symbolic links
+PRODUCT_PACKAGES += \
+    eglSubDriverAndroid_64.so \
+    libEGL_adreno_64.so \
+    libGLESv1_CM_adreno_64.so \
+    libGLESv2_adreno_64.so \
+    libq3dtools_adreno_64.so \
+    libq3dtools_esx_64.so
 
 # Prebuilt shared libraries
 PRODUCT_PACKAGES += \
