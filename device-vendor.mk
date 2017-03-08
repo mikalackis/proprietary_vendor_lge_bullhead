@@ -1,4 +1,4 @@
-# [2017-02-12] Auto-generated file, do not edit
+# [2017-03-08] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -43,8 +43,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    libdmengine_32.so \
-    libdmjavaplugin_32.so
+    libdmjavaplugin_32.so \
+    libdmengine_32.so
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
