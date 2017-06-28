@@ -1,4 +1,4 @@
-# [2017-04-09] Auto-generated file, do not edit
+# [2017-06-28] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -14,7 +14,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    HiddenMenu \
     RCSBootstraputil \
     RcsImsBootstraputil \
     TimeService
@@ -29,22 +28,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
     atfwd \
-    CarrierEntitlement \
-    CNEService \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMConfigUpdate \
-    DMService \
-    Entitlement \
-    LifeTimerService \
-    qcrilmsgtunnel \
-    SprintDM
-
-# Prebuilt APKs libs symlinks from 'proprietary/priv-app'
-PRODUCT_PACKAGES += \
-    libdmengine_32.so \
-    libdmjavaplugin_32.so
+    qcrilmsgtunnel
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
