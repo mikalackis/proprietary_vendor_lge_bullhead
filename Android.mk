@@ -1,7 +1,12 @@
-# [2017-10-11] Auto-generated file, do not edit
+# [2017-11-30] Auto-generated file, do not edit
 
 LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bullhead)
+
+expected_build_id := $(shell cat vendor/lge/bullhead/build_id.txt)
+ifneq ($(BUILD_ID),$(expected_build_id))
+    $(error "Expected BUILD_ID is $(expected_build_id) and currently building with $(BUILD_ID)")
+endif
 
 include vendor/lge/bullhead/AndroidBoardVendor.mk
 

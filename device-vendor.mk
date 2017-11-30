@@ -1,4 +1,4 @@
-# [2017-10-11] Auto-generated file, do not edit
+# [2017-11-30] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
