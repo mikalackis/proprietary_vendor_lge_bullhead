@@ -1,4 +1,4 @@
-# [2017-11-30] Auto-generated file, do not edit
+# [2018-02-09] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \
@@ -64,8 +64,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgps.utils.so:lge \
     vendor/lge/bullhead/proprietary/lib/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_core.so:lge \
     vendor/lge/bullhead/proprietary/lib/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_eng.so:lge \
+    vendor/lge/bullhead/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep:lge \
     vendor/lge/bullhead/vendor/bin/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:lge \
+    vendor/lge/bullhead/vendor/bin/hw/android.hardware.cas@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.0-service:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.0-service:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.dumpstate@1.0-service.bullhead:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate@1.0-service.bullhead:lge \
     vendor/lge/bullhead/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service:lge \
@@ -78,7 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/bin/nanoapp_cmd:$(TARGET_COPY_OUT_VENDOR)/bin/nanoapp_cmd:lge \
     vendor/lge/bullhead/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd:lge \
     vendor/lge/bullhead/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti:lge \
+    vendor/lge/bullhead/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh:lge \
     vendor/lge/bullhead/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon:lge \
+    vendor/lge/bullhead/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor:lge \
     vendor/lge/bullhead/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice:lge \
     vendor/lge/bullhead/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager:lge \
     vendor/lge/bullhead/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter:lge \
@@ -86,7 +90,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/etc/diag/Bullhead_radio-general.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/Bullhead_radio-general.cfg:lge \
     vendor/lge/bullhead/vendor/etc/diag/ims_epdg.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/ims_epdg.cfg:lge \
     vendor/lge/bullhead/vendor/etc/diag/wlan.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/wlan.cfg:lge \
+    vendor/lge/bullhead/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs:lge \
+    vendor/lge/bullhead/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files:lge \
     vendor/lge/bullhead/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:lge \
+    vendor/lge/bullhead/vendor/etc/init/android.hardware.cas@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.0-service.rc:lge \
     vendor/lge/bullhead/vendor/etc/init/android.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.0-service.rc:lge \
     vendor/lge/bullhead/vendor/etc/init/android.hardware.dumpstate@1.0-service.bullhead.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.0-service.bullhead.rc:lge \
     vendor/lge/bullhead/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@2.0-service.rc:lge \
@@ -96,8 +103,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc:lge \
     vendor/lge/bullhead/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc:lge \
     vendor/lge/bullhead/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc:lge \
+    vendor/lge/bullhead/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc:lge \
     vendor/lge/bullhead/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf:lge \
     vendor/lge/bullhead/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf:lge \
+    vendor/lge/bullhead/vendor/etc/seccomp_policy/configstore@1.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.0.policy:lge \
     vendor/lge/bullhead/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw:lge \
     vendor/lge/bullhead/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw:lge \
     vendor/lge/bullhead/vendor/firmware/activity.napp:$(TARGET_COPY_OUT_VENDOR)/firmware/activity.napp:lge \
@@ -172,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt:lge \
     vendor/lge/bullhead/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so:lge \
+    vendor/lge/bullhead/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so:lge \
     vendor/lge/bullhead/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so:lge \
     vendor/lge/bullhead/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so:lge \
     vendor/lge/bullhead/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so:lge \
@@ -251,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so:lge \
     vendor/lge/bullhead/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so:lge \
     vendor/lge/bullhead/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwminijail.so:lge \
     vendor/lge/bullhead/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so:lge \
     vendor/lge/bullhead/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:lge \
     vendor/lge/bullhead/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so:lge \
@@ -279,8 +290,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so:lge \
     vendor/lge/bullhead/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so:lge \
     vendor/lge/bullhead/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libminijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminijail_vendor.so:lge \
     vendor/lge/bullhead/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so:lge \
     vendor/lge/bullhead/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so:lge \
     vendor/lge/bullhead/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so:lge \
     vendor/lge/bullhead/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so:lge \
     vendor/lge/bullhead/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so:lge \
@@ -295,9 +308,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so:lge \
     vendor/lge/bullhead/vendor/lib64/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsimssjni.so:lge \
     vendor/lge/bullhead/vendor/lib64/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsjni.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so:lge \
     vendor/lge/bullhead/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so:lge \
     vendor/lge/bullhead/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so:lge \
     vendor/lge/bullhead/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so:lge \
+    vendor/lge/bullhead/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so:lge \
     vendor/lge/bullhead/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so:lge \
     vendor/lge/bullhead/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so:lge \
     vendor/lge/bullhead/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so:lge \
@@ -307,6 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpdaemoninterface.so:lge \
     vendor/lge/bullhead/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so:lge \
     vendor/lge/bullhead/vendor/lib64/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscale.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libselinux_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libselinux_vendor.so:lge \
     vendor/lge/bullhead/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so:lge \
     vendor/lge/bullhead/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so:lge \
     vendor/lge/bullhead/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so:lge \
@@ -321,10 +337,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_core.so:lge \
     vendor/lge/bullhead/vendor/lib64/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_idl.so:lge \
     vendor/lge/bullhead/vendor/lib64/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_iface.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so:lge \
     vendor/lge/bullhead/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so:lge \
     vendor/lge/bullhead/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so:lge \
     vendor/lge/bullhead/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so:lge \
     vendor/lge/bullhead/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so:lge \
+    vendor/lge/bullhead/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so:lge \
     vendor/lge/bullhead/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so:lge \
     vendor/lge/bullhead/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so:lge \
     vendor/lge/bullhead/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so:lge \
@@ -340,6 +358,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so:lge \
     vendor/lge/bullhead/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so:lge \
+    vendor/lge/bullhead/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so:lge \
     vendor/lge/bullhead/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so:lge \
     vendor/lge/bullhead/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so:lge \
@@ -350,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so:lge \
-    vendor/lge/bullhead/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.contexthub@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.contexthub@1.0-impl.so:lge \
     vendor/lge/bullhead/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so:lge \
@@ -404,6 +422,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so:lge \
     vendor/lge/bullhead/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so:lge \
     vendor/lge/bullhead/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so:lge \
+    vendor/lge/bullhead/vendor/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail_vendor.so:lge \
     vendor/lge/bullhead/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so:lge \
     vendor/lge/bullhead/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so:lge \
     vendor/lge/bullhead/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so:lge \
@@ -480,6 +499,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so:lge \
     vendor/lge/bullhead/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so:lge \
     vendor/lge/bullhead/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so:lge \
+    vendor/lge/bullhead/vendor/lib/libmediacodecservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacodecservice.so:lge \
+    vendor/lge/bullhead/vendor/lib/libminijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminijail_vendor.so:lge \
     vendor/lge/bullhead/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so:lge \
     vendor/lge/bullhead/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so:lge \
     vendor/lge/bullhead/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so:lge \
@@ -553,6 +574,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so:lge \
     vendor/lge/bullhead/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so:lge \
     vendor/lge/bullhead/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so:lge \
+    vendor/lge/bullhead/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so:lge \
     vendor/lge/bullhead/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so:lge \
     vendor/lge/bullhead/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so:lge \
     vendor/lge/bullhead/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so:lge \
@@ -571,8 +593,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so:lge \
     vendor/lge/bullhead/vendor/lib/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsimssjni.so:lge \
     vendor/lge/bullhead/vendor/lib/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsjni.so:lge \
+    vendor/lge/bullhead/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so:lge \
     vendor/lge/bullhead/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so:lge \
     vendor/lge/bullhead/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so:lge \
+    vendor/lge/bullhead/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so:lge \
     vendor/lge/bullhead/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so:lge \
     vendor/lge/bullhead/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so:lge \
     vendor/lge/bullhead/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so:lge \
@@ -597,9 +621,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_core.so:lge \
     vendor/lge/bullhead/vendor/lib/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_idl.so:lge \
     vendor/lge/bullhead/vendor/lib/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_iface.so:lge \
+    vendor/lge/bullhead/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so:lge \
     vendor/lge/bullhead/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so:lge \
     vendor/lge/bullhead/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so:lge \
     vendor/lge/bullhead/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so:lge \
+    vendor/lge/bullhead/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so:lge \
     vendor/lge/bullhead/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so:lge \
     vendor/lge/bullhead/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so:lge \
     vendor/lge/bullhead/vendor/lib/rfsa/adsp/fastrpc_shell_0:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/fastrpc_shell_0:lge \
@@ -619,6 +645,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:lge
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/bullhead/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:lge \
-    vendor/lge/bullhead/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:lge
+    vendor/lge/bullhead/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:lge \
+    vendor/lge/bullhead/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:lge
 
